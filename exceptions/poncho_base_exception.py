@@ -1,0 +1,2 @@
+class PonchoException(Exception):
+    pass
