@@ -1,4 +1,4 @@
-# MAN2HTML
+# «Poncho»
 Версия 1.0
 
 Автор: Ратбек Нурланов (ratbeknurlanov@gmail.com)
@@ -12,6 +12,6 @@
 
 ### Консольная версия
 ---
-Справка по запуску: `python man2html.py -h`
+Справка по запуску: `python cponcho.py -h`
 
-Пример запуска: `python man2html.py input.man`
+Пример запуска: `python cponcho.py inputfile`
