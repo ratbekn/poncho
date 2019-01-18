@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "PT Sans", "Tahoma", sans-serif;
+    margin: .5em 2em;
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+}
+
+.section-header {
+    font-size: 1.3em;
+    color: #41f468;
+}
+
+.subsection-header {
+    font-size: 1em;
+    padding-left: 2em;
+    color: #36db4c;
+}
+
+.simple-paragraph {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.simple-paragraph {
+    padding-left: 4em;
+}
+
+.tagged-paragraph-container, .indented-paragraph-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 8em;
+    justify-content: space-between;
+}
+
+.tagged-paragraph-container span, .indented-paragraph span {
+    flex-basis: auto;
+}
+
+.tagged-paragraph, .indented-paragraph {
+    flex-basis: 70%;
+    margin-left: auto;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.emphasis {
+    font-style: italic;
+}
